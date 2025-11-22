@@ -1,21 +1,26 @@
-<<<<<<< HEAD
-# calculadora_basica
+CALCULADORA BASICA EN FLUTTER
+Este proyecto consiste en una aplicación de calculadora desarrollada con Flutter. Su objetivo es servir como práctica para el uso de widgets fundamentales, la gestión del estado y la implementación de lógica aritmética en una interfaz sencilla y funcional.
 
-A new Flutter project.
+--- Descripcion general ---
+La calculadora permite realizar operaciones básicas como suma, resta, multiplicación y división. La interfaz muestra tres elementos importantes:
+1. El número previo de la operación.
+2. El operador seleccionado.
+3. El número actual introducido por el usuario, ya sea mediante botones o mediante un campo de texto.
 
-## Getting Started
+Además, la aplicación mantiene un historial de operaciones que se actualiza cada vez que se ejecuta una operación con el botón de igual. El historial puede limpiarse junto con el resto del estado mediante el botón "C".
 
-This project is a starting point for a Flutter application.
+--- Caracteristicas principales ---
+- Implementación con StatefulWidget para gestionar cambios en la interfaz.
+- Uso de Scaffold, AppBar, TextField y ElevatedButton como elementos fundamentales de la UI.
+- Sincronización entre la entrada mediante botones y la entrada mediante teclado.
+- Validación de operadores y valores numéricos.
+- Manejo de errores, como división por cero.
+- Historial de operaciones integrado en la interfaz.
+- Actualización dinámica de la pantalla para mostrar la operación en construcción (número previo, operador y número actual).
+- Limpieza automática de los campos de entrada tras completar una operación.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# my_calculator
-Mobile application project developed in Flutter that implements a basic calculator with addition, subtraction, multiplication, and division operations. The interface is built with Material Design widgets and a responsive design. It includes error handling such as division by zero and a reset button to clear the input.
->>>>>>> a681ae5d8514b25034b58e1d8665f1fb2f15d665
+--- Mejoras futuras ---
+- Persistencia del historial mediante almacenamiento local.
+- Añadir pruebas unitarias para validar la lógica aritmética.
+- Mejoras estéticas en la interfaz y animaciones.
+- Soporte para operaciones encadenadas más avanzadas.
